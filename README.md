@@ -11,6 +11,10 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
+#### Pull model via Ollama
+```bash
+ollama pull llama3:8b
+```
 ### Step 3: Run Program
 To run the program, you need to provide:
 - `collection_name`: The name of the collection you'd like to run the pipeline on.
@@ -24,4 +28,5 @@ python3 NLP_pipeline.py --collection_name ""Collection Name"" --report_name ""Re
 #### Example:
 ``` bash 
 python3 NLP_pipeline.py GradientHealth/LumbarSpineDegenerative LumbarSpineDegenerative
-```"
+```
+"
