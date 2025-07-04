@@ -1,4 +1,4 @@
-# NLP Pipeline to extract doctor's notes to JSON
+"# NLP Pipeline to extract doctor's notes to JSON
 
 ## Setup Instructions
 ### Step 1: Create a virtual environment
@@ -18,5 +18,10 @@ To run the program, you need to provide:
 
 #### Usage:
 ``` bash 
-python3 NLP_pipeline.py GradientHealth/LumbarSpineDegenerative LumbarSpineDegenerative
+python3 NLP_pipeline.py --collection_name ""Collection Name"" --report_name ""Report Name""
 ```
+
+#### Example:
+``` bash 
+python3 NLP_pipeline.py GradientHealth/LumbarSpineDegenerative LumbarSpineDegenerative
+```"
