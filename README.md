@@ -1,4 +1,4 @@
-"# NLP Pipeline to extract doctor's notes to JSON
+# NLP Pipeline to extract doctor's notes to JSON
 
 ## Setup Instructions
 ### Step 1: Create a virtual environment
