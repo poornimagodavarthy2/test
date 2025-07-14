@@ -1,4 +1,4 @@
-"# NLP Pipeline to extract doctor's notes to JSON
+# NLP Pipeline to extract doctor's notes to JSON
 
 This script generates structured JSON outputs from a specified collection's report texts and saves to a CSV.
 
